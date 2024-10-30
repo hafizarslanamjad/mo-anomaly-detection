@@ -1,7 +1,7 @@
 
 # mo-anomaly-detection
 
-An anomaly detection project using deep learning and PyTorch, designed to identify irregularities in images. This model uses a convolutional autoencoder with attention mechanisms to improve anomaly detection accuracy.
+An multi objective anomaly detection project using deep learning and PyTorch, designed to identify structural and counting anomalies in images.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -38,7 +38,7 @@ An anomaly detection project using deep learning and PyTorch, designed to identi
 
 3. **Install dependencies**:
    ```bash
-   pip install -r requirements.txt
+   please see setup.py file
    ```
 
 4. **Install PyTorch with CUDA support (if required)**:
@@ -59,12 +59,15 @@ To evaluate the model on the test set:
 ```bash
 python test.py --config configs/test_config.yaml
 ```
+File will be provided soon
 
 ### Inference
 To perform anomaly detection on new images:
 ```bash
 python inference.py --input /path/to/image
 ```
+
+File will be provided soon
 
 > **Note**: Adjust paths as needed, and make sure the images follow the directory structure specified in the configuration files.
 
@@ -83,6 +86,7 @@ mo-anomaly-detection/
 ├── configs/           # Configuration files
 └── README.md          # Project documentation
 ```
+Checkpoints and Dataset will be made available soon!
 
 ## Features
 - Convolutional Autoencoder with Attention Mechanisms
@@ -90,12 +94,12 @@ mo-anomaly-detection/
 - Configurable training, testing, and inference pipelines
 
 ## Results
-The model achieves high accuracy in anomaly detection. Below are sample results:
+The model achieves __ __ in unsupervised multi objective anomaly detection. Below are sample results:
 
-![Sample Output](path/to/sample_output.png)
+![Images and Learning Curves On Datasets](mo-anomaly-detection/images/loading.png)
 
-- **Accuracy**: 95%
-- **F1 Score**: 0.92
+- **MEASURE 1**: TO BE POSTED
+- **MEASURE 2**: TO BE POSTED
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with improvements or bug fixes.
